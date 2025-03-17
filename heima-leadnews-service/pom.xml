@@ -12,6 +12,7 @@
         <module>heima-leadnews-user</module>
         <module>heima-leadnews-article</module>
         <module>heima-leadnews-wemedia</module>
+        <module>heima-leadnews-schedule</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
 

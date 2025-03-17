@@ -22,5 +22,12 @@
       <jdbc-url>jdbc:mysql://localhost:3306/leadnews_wemedia</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="leadnews_schedule@localhost" uuid="0975e260-a17a-41ee-9010-9b26bafe958f">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/leadnews_schedule</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
