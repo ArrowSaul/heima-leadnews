@@ -33,4 +33,13 @@ public class WmNewsController {
         return  wmNewsService.submitNews(dto);
     }
 
+    /**
+     * 上下架文章
+     * @param dto
+     * @return
+     */
+    @PostMapping("/down_or_up")
+    public ResponseResult downOrUp(@RequestBody WmNewsDto dto){
+        return wmNewsService.downOrUp(dto);
+    }
 }
