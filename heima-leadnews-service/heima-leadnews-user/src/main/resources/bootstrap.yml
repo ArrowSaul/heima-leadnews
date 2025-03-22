@@ -10,6 +10,3 @@ spring:
       config:
         server-addr: 192.168.200.130:8848
         file-extension: yml
-  #忽略掉配置类
-  autoconfigure:
-    exclude: org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration
